@@ -42,6 +42,7 @@ export default function Login() {
           id="email"
           name="email"
           type="email"
+          value={formState.email}
           onChange={handleFormChange}
         />{' '}
         <label htmlFor='password'>Password</label>
@@ -49,6 +50,7 @@ export default function Login() {
           id="password"
           name="password"
           type="password"
+          value={formState.password}
           onChange={handleFormChange}
         />
         <button type="submit" aria-label="Sign In">
