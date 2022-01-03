@@ -5,7 +5,7 @@ import Treehouse from './Treehouse';
 
 const mockLogout = jest.fn();
 
-jest.mock('../../hooks/useAuth', () => {
+jest.mock('../../hooks/useAuth', () => { 
   return {
     useAuth: function () {
       return {

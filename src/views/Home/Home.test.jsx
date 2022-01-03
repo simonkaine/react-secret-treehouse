@@ -10,3 +10,4 @@ it('should render the home page', () => {
   );
   expect(container).toMatchSnapshot();
 });
+ 
